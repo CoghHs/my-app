@@ -4,8 +4,10 @@
 	justify-content: center;
 }
 
-.loader {
-}
-
 .movies {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding: 50px;
+	padding-top: 70px;
 }
