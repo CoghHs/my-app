@@ -51,3 +51,7 @@ ul {
 .movie__genres li {
 	margin-right: 5px;
 }
+
+.movie__summary {
+	margin-top: -15px;
+}
