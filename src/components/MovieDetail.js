@@ -7,9 +7,9 @@ function MovieDetail({ coverImg, title, description, year }) {
 			<img src={coverImg} alt={title} className={styles.img} />
 			<div className={styles.info}>
 				<h2>{title}</h2>
-				<h3>{year}</h3>
-				<h5>description</h5>
-				<p>
+				<h5>{year}</h5>
+				<span>description ¬</span>
+				<p className={styles.descrip}>
 					{description.length > 235
 						? `${description.slice(0, 235)}...`
 						: description}
